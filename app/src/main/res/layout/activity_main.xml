@@ -50,12 +50,52 @@
         android:layout_alignStart="@id/image"
         android:layout_alignTop="@id/image" />-->
 
-    <com.xiaoxin.xmlxin.widget.rain.RainView
+    <!--<com.xiaoxin.xmlxin.widget.rain.RainView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>-->
     <!--rain:rainNum="300"
         rain:randColor="true"
         rain:size="10"-->
+
+    <!--<com.xiaoxin.xmlxin.widget.WaveView
+        android:id="@+id/waveView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+
+   <!-- <com.xiaoxin.xmlxin.widget.RippleImageView
+        android:id="@+id/rippleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#37B158"
+        app:show_spacing_time="800"
+        app:imageViewWidth="35dp"
+        app:imageViewHeigth="35dp"
+        android:layout_centerHorizontal="true">
+    </com.xiaoxin.xmlxin.widget.RippleImageView>
+
+    &lt;!&ndash;app:show_spacing_time="800"//动画播放间隔时间
+        app:imageViewWidth="35dp" //图片大小
+        app:imageViewHeigth="35dp"&ndash;&gt;
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="start"
+    />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="stop"
+    />-->
+
+    <com.xiaoxin.xmlxin.widget.ShareButtonView
+        android:id="@+id/share_button"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+    />
 
 
 </LinearLayout>
